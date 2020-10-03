@@ -6,7 +6,6 @@ c = 61024756279786677
 #n = 6189500738854313
 #c = 3395792081244847 
 
-
 B = 3
 B2 = B*B
 
@@ -238,4 +237,3 @@ def inverse(a, n):
         t = t + n
     return t
 print(inverse(KeyK,p))
-
