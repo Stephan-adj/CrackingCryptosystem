@@ -1,9 +1,10 @@
-##### EXERCICE 3 ♥ (Rabin)
+#####Rabin's method
+#Public keys
 n = 64952073097727989
 c = 61024756279786677 
 
-n = 6189500738854313
-c = 3395792081244847 
+#n = 6189500738854313
+#c = 3395792081244847 
 
 
 B = 3
@@ -161,7 +162,7 @@ print("x3 =", x3)
 x4=(a*u2+v2*b)%n
 print("x4 =", x4)
 
-#conversion binaire
+#Binary conversion
 """
 maliste = [x1,x2,x3,x4]
 def conversion(n):
@@ -190,7 +191,7 @@ for k in range(0,4):
     affichage(solution[k])
 
 
-############## EXO 2
+############## Experimental ElGamal cryptosystem
 def fastpow(x, y):
     #Fast exponentiation x**y with x and y some integers 
     result = 1
